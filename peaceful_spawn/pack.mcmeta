@@ -1,0 +1,6 @@
+{
+    "pack": {
+        "pack_format": 15,
+        "description": "Disables mob AI and mobGriefing in a specified square area."
+    }
+}
