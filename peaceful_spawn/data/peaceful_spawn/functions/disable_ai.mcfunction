@@ -1,5 +1,6 @@
 # Define the coordinates of the square area where you want to disable mob AI
-# Example coordinates for a 50x50 area centered at (-3, 133):
-# From (-5, 0, -5) to (5, 255, 5)
+# Coordinates for a 110x110 area centered at (-3, 133):
+# From (-58, 78) to (52, 188)
+# all of Y value should be protected, so it is omitted
 
-execute as @e[type=!player,x=-5,y=0,z=-5,dx=10,dy=255,dz=10] run data merge entity @s {NoAI:1b}
+execute as @e[type=!player,x=-58,z=78,dx=110,dz=110] run data merge entity @s {NoAI:1b}
